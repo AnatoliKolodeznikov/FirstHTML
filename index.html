@@ -1,24 +1,91 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Anatoliy CV</title>
-</head>
-<body>
-    <h1>Анатолий Колодезников</h1>
-    <p><em><strong>Я начинающий программист</strong></em></p>
-    <p>Я люблю путешествовать</p>
-    <!-- <hr> -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- главное -->
+    <div class="info">
+      <img src="avatar.jpg" alt="тут папич" class="avatar" />
+      <h1>Анатолий Колодезников</h1>
+      <p>
+        <strong>начинающий программист</strong>
+      </p>
+      <p>
+        <strong>люблю путешествовать</strong>
+      </p>
+    </div>
+    <!-- линия -->
+    <hr size="2" noshade color="purple" />
+    <!-- информация -->
+    <div class="social">
     <h2>Мои социальные сети</h2>
     <ul type="square">
-        <li><a href="https://instagram.com/antkk_kk" target="blank">Instagram</a></li>
-        <li><a href="https://t.me/miyazaki97" target="blank">telegram</a></li>
+      <li>
+        <a href="https://instagram.com/antkk_kk" target="blank">Instagram</a>
+      </li>
+      <li><a href="https://t.me/miyazaki97" target="blank">telegram</a></li>
     </ul>
+    </div>
+    <!-- линия -->
+    <hr size="2" noshade color="green" />
     <h3>Мои хобби</h3>
     <ol type="I">
-        <li>гейминг</li>
-        <li>путешествие</li>
-        <li>велоспорт</li>
+      <li>гейминг</li>
+      <li>путешествие</li>
+      <li>велоспорт</li>
     </ol>
-</body>
+    <!-- линия -->
+    <hr size="2" noshade color="blue" />
+    <!-- таблица -->
+    <h2>Опыт работы</h2>
+    <table border="2">
+      <tr>
+        <th>Компания</th>
+        <th>Должность</th>
+        <th>Год</th>
+      </tr>
+      <tr>
+        <td>TMG</td>
+        <td>fire safety</td>
+        <td>2019-2020</td>
+      </tr>
+      <tr>
+        <td>Yandex</td>
+        <td>Assessor</td>
+        <td>2022-2023</td>
+      </tr>
+    </table>
+    <!-- линия -->
+    <hr size="2" noshade color="pink" />
+    <!-- видос -->
+    <h2>Youtube видео</h2>
+    <a href="youtube.html" target="blank">Посмотреть видео</a>
+    <!-- линия -->
+    <hr size="2" noshade color="brown" />
+    <h2>Связаться со мной</h2>
+    <form action="/">
+      <label for="name">Ваше имя</label>
+      <input type="text" id="name" placeholder="Ввод имени..." />
+      <!-- новая строка -->
+      <br />
+      <!-- новая строка -->
+      <label for="email">Ваш email</label>
+      <input type="text" id="email" placeholder="Ввод email" />
+      <!-- новая строка -->
+      <br />
+      <!-- новая строка -->
+      <label for="text">Ваше сообщение:</label>
+      <!-- новая строка -->
+      <br />
+      <!-- новая строка -->
+      <textarea id="text" rows="5" cols="50"></textarea>
+      <!-- новая строка -->
+      <br />
+      <!-- новая строка -->
+      <input type="submit" value="Связаться!" />
+    </form>
+  </body>
 </html>
